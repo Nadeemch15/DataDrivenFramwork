@@ -33,7 +33,7 @@ namespace DataDrivenFramwork.Features
         [Then(@"I should be successfuly logged in")]
         public void ThenIShouldBeSuccessfulyLoggedIn()
         {
-            ScenarioContext.Current.Pending();
+            //ScenarioContext.Current.Pending();
         }
     }
 }
