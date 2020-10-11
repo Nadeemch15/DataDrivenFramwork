@@ -30,10 +30,10 @@ namespace DataDrivenFramwork.Features
             login.ClickLoginButton();
         }
 
-        [Then(@"I should be successfuly logged in")]
-        public void ThenIShouldBeSuccessfulyLoggedIn()
-        {
-            //ScenarioContext.Current.Pending();
-        }
+        //[Then(@"I should be successfuly logged in")]
+        //public void ThenIShouldBeSuccessfulyLoggedIn()
+        //{
+        //    ScenarioContext.Current.Pending();
+        //}
     }
 }
